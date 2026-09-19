@@ -1,3 +1,7 @@
+mod provider;
+use provider::*;
+
 fn main() {
-    println!("Hello, world!");
+    let provider = Provider::new();
+    provider.parse_args();
 }
