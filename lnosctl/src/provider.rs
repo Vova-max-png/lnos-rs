@@ -1,7 +1,6 @@
 use std::env;
 use std::fs;
 
-use ed25519_dalek::ed25519::signature::Keypair;
 use ed25519_dalek::{SigningKey, VerifyingKey};
 use rand::rngs::OsRng;
 
